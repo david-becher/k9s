@@ -47,5 +47,6 @@ require (
 
 replace (
 	github.com/docker/distribution => github.com/docker/distribution v0.0.0-20191216044856-a8371794149d
+	github.com/deislabs/oras => github.com/deislabs/oras v0.11.2
 	github.com/derailed/k9s => github.com/david-becher/k9s
 )
