@@ -1,4 +1,4 @@
-module github.com/derailed/k9s
+module github.com/david-becher/k9s
 
 go 1.16
 
@@ -43,4 +43,9 @@ require (
 	k8s.io/kubectl v0.20.5
 	k8s.io/metrics v0.20.5
 	sigs.k8s.io/yaml v1.2.0
+)
+
+replace (
+	github.com/docker/distribution => github.com/docker/distribution v0.0.0-20191216044856-a8371794149d
+	github.com/derailed/k9s => github.com/david-becher/k9s
 )
