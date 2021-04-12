@@ -1,11 +1,8 @@
-module github.com/david-becher/k9s
+module github.com/derailed/k9s
 
 go 1.16
 
-replace (
-	github.com/docker/distribution => github.com/docker/distribution v0.0.0-20191216044856-a8371794149d
-	github.com/docker/docker => github.com/moby/moby v17.12.0-ce-rc1.0.20200618181300-9dc6525e6118+incompatible
-)
+replace github.com/docker/docker => github.com/moby/moby v17.12.0-ce-rc1.0.20200618181300-9dc6525e6118+incompatible
 
 require (
 	github.com/atotto/clipboard v0.1.4
@@ -46,7 +43,7 @@ require (
 )
 
 replace (
+	github.com/deislabs/oras => github.com/deislabs/oras v0.11.1
 	github.com/docker/distribution => github.com/docker/distribution v0.0.0-20191216044856-a8371794149d
-	github.com/deislabs/oras => github.com/deislabs/oras v0.11.2
-	github.com/derailed/k9s => github.com/david-becher/k9s
+	github.com/derailed/k9s => github.com/david-becher/k9s master
 )
